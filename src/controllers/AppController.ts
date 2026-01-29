@@ -1,5 +1,5 @@
-import { AppView } from '../views/AppView.js';
-import { Post, ReactionType } from '../models/Post.js';
+import { AppView } from '@src/views/AppView';
+import { Post, ReactionType } from '@src/models/Post';
 
 // Связывает Views и данные, управляет состоянием ленты
 export class AppController {
